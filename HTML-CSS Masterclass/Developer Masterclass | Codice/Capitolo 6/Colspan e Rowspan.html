@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Colspan e Rowspan</title>
+    <meta name="description" content="Documento per CorsoUX" />
+</head>
+
+<body>
+    <table width="285" border="1" cellpadding="20" cellspacing="5">
+        <tbody>
+            <tr>
+                <td>
+
+                    <table width="320" border="1">
+                        <caption>
+                            Risultati Corso
+                            <hr>
+                        </caption>
+
+                        <thead>
+                            <tr>
+                                <th colspan="2">Materia</th>
+                                <th>Alex</th>
+                                <th>Jane</th>
+                                <th>Luca</th>
+                            </tr>
+                        </thead>
+
+                        <tfoot>
+                            <tr>
+                                <th colspan="5">Alex - Miglior Studente!</th>
+                            </tr>
+                        </tfoot>
+
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">HTML</td>
+                                <td>Pratica</td>
+                                <td>A+</td>
+                                <td>A</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Teoria</td>
+                                <td>A+</td>
+                                <td>A-</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Javascript</td>
+                                <td>Pratica</td>
+                                <td>A</td>
+                                <td>C</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Teoria</td>
+                                <td>A</td>
+                                <td>C</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">CSS</td>
+                                <td>Pratica</td>
+                                <td>A</td>
+                                <td>B</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>Teoria</td>
+                                <td>A+</td>
+                                <td>A</td>
+                                <td>C</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

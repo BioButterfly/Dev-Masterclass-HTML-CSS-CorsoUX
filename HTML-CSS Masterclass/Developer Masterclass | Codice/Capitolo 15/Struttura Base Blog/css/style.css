@@ -1,0 +1,81 @@
+/* Struttura Base del blog */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    background: #fff;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Blocco Centrale */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #F0F4F5;
+}
+
+.wrapper {
+    margin: 25px;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #DFE6E8;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+}
+
+
+/* Affiancare in due colonne il Main e la Sidebar */
+
+main,
+aside {
+    display: inline-block;
+}
+
+
+/* Stile Main */
+
+main {
+    width: 70%;
+    margin: 0 15px 0 0;
+}
+
+
+/* Stile Sidebar */
+
+aside {
+    width: 25%;
+    vertical-align: top;
+    padding: 0 0 0 30px;
+    background: #fff;
+    border-left: 1px solid #DFE6E8;
+}
+
+
+/* Article */
+
+.article,
+.aside-article {
+    padding: 15px 0;
+    border-bottom: 1px solid #DFE6E8;
+}
+
+
+/* Footer */
+
+footer {
+    margin: 45px 0 0 0;
+    padding: 25px;
+    border-radius: 20px;
+    background: #111;
+    color: #fff;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<head>
+    <meta charset="utf-8" />
+    <title>MasterClass | Styling Tables</title>
+    <meta name="description" content="MasterClass | Styling Tables" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+    <table class="alternate-columns" width="320" border="0">
+
+        <caption>
+            Risultati Corso
+        </caption>
+
+        <thead>
+            <tr>
+                <th colspan="2">Materia</th>
+                <th>Alex</th>
+                <th>Jane</th>
+                <th>Marco</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th colspan="5">Alex - Miglior Studente!</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <tr>
+                <td rowspan="2" class="topic topic-1">HTML</td>
+                <td class="topic topic-1">Pratica</td>
+                <td>A+</td>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td class="topic topic-1">Teoria</td>
+                <td>A+</td>
+                <td>A-</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="topic topic-2">Javascript</td>
+                <td class="topic topic-2">Pratica</td>
+                <td>A</td>
+                <td>C</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td class="topic topic-2">Teoria</td>
+                <td>A</td>
+                <td>C</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="topic topic-3">CSS</td>
+                <td class="topic topic-3">Pratica</td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td class="topic topic-3">Teoria</td>
+                <td>A+</td>
+                <td>A</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
